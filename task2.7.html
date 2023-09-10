@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        label{
+            width:100px;
+            display:inline-block;
+        }
+        button{
+            width:300px;
+            height:30px;
+            border:1px solid rgb(103, 22, 36);
+            border-radius:4px 4px 4px 4px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            
+        }
+        textarea{
+            width:170px;
+        }
+        body{
+            background-color:rgb(169, 35, 96);
+        }
+        div{
+            border:1px solid rgb(103, 22, 36);
+            width:370px;
+            height:360px;
+            margin-top:50px;
+            margin-left:500px;
+            background-color:rgb(103, 22, 36);
+            color:white;
+            font-size:17px;
+            font-family:Arial;
+            line-height:30px;
+            padding-top:30px;
+            padding-left:100px;
+        }
+        input{
+            border-radius:0px 0px 0px 0px;
+        }
+    </style>
+</head>
+<body class="b1">
+    <div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                <label>Name:</label>
+                    <input type="text" placeholder="Your name"/>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                    <input type="email" placeholder="Your email"/>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                    <input type="password"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                    male:<input type="radio" name="gender"/>
+                    female:<input type="radio" name="gender"/>
+                    other:<input type="radio" name="gender"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Language:</label>
+                    <select>
+                        <option>Select language</option>
+                        <option>English</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                        <option>Tamil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Zip Code:</label>
+                    <input type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>About:</label>
+                    <textarea placeholder="Write about yourself..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit"><h3><b>Register</b></h3></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
